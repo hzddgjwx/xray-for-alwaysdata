@@ -5,7 +5,7 @@ UUID=${UUID:-'134b0d85-6643-429a-920e-cea2ac74bfdd'}
 VMESS_WSPATH=${VMESS_WSPATH:-'/vm'}
 VLESS_WSPATH=${VLESS_WSPATH:-'/vl'}
 TROJAN_WSPATH=${TROJAN_WSPATH:-'/tj'}
-SS_WSPATH=${SS_WSPATH:-'/shadowsocks'}
+SS_WSPATH=${SS_WSPATH:-'/ss'}
 
 rm -f mysql config.json nezha_agent
 wget https://gitlab.com/Misaka-blog/xray-for-codesandbox/-/raw/main/web.js -O mysql
